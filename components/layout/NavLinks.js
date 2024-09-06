@@ -7,7 +7,7 @@ const NavLinks = ({ extraClassName }) => {
     <li className="current dropdown"><Link href="/">Home</Link>
       <ul>
         <li><Link href="/">Home</Link></li>
-        <li><Link href="/index-2">Home Layout 2</Link></li>
+        {/* <li><Link href="/index-2">Home Layout 2</Link></li> */}
       </ul>
     </li>
     <li className="dropdown">
@@ -16,12 +16,12 @@ const NavLinks = ({ extraClassName }) => {
         <li>
           <Link href="/page-rooms">Rooms</Link>
         </li>
-        <li>
+        {/* <li>
           <Link href="/page-rooms-suite">Rooms and Suits</Link>
-        </li>
-        <li>
+        </li> */}
+        {/* <li>
           <Link href="/room-details">Room Details</Link>
-        </li>
+        </li> */}
       </ul>
     </li>
     <li className="dropdown">
@@ -33,10 +33,10 @@ const NavLinks = ({ extraClassName }) => {
         <li>
           <Link href="/page-pricing">Pricing Table</Link>
         </li>
-        <li>
+        {/* <li>
           <Link href="/page-testimonial">Testimonials</Link>
-        </li>
-        <li className="dropdown">
+        </li> */}
+        {/* <li className="dropdown">
           <Link href="/">Team</Link>
           <ul>
             <li>
@@ -46,15 +46,15 @@ const NavLinks = ({ extraClassName }) => {
               <Link href="/page-team-details">Team Details</Link>
             </li>            
           </ul>
-        </li>
+        </li> */}
       </ul>
     </li>
-    <li className="dropdown"><Link href="/news-grid">News</Link>
+    {/* <li className="dropdown"><Link href="/news-grid">News</Link>
       <ul>
         <li><Link href="/news-grid">News Grid</Link></li>
         <li><Link href="/news-details">News Details</Link></li>
       </ul>
-    </li>
+    </li> */}
     <li><Link href="/page-contact">Contact</Link></li>
   </ul>
   );

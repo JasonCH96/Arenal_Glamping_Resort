@@ -17,14 +17,14 @@ export default function Home() {
     <Slider1 />
     <About1 addClass={"pt-0"} />
     <Rooms />
-    <Services />
+    {/* <Services /> */}
     <Video />
     <Features />
-    <Testimonial1 />
+    {/* <Testimonial1 /> */}
     <Pricing />
-    <Team />
+    {/* <Team /> */}
     <Form />
-    <News1 />
+    {/* <News1 /> */}
     </Layout>
     </>
   )

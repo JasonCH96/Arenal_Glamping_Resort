@@ -61,7 +61,7 @@ export default function ContactPage() {
                         </div>
                         <div class="text">
                           <h6>Have any question?</h6>
-                          <a href="tel:980089850"><span>Free</span> +92 (020)-9850</a>
+                          <a href="tel:+506 8888 8888"></a>
                         </div>
                       </li>
                       <li>
@@ -70,7 +70,7 @@ export default function ContactPage() {
                         </div>
                         <div class="text">
                           <h6>Write email</h6>
-                          <a href="mailto:needhelp@company.com">needhelp@company.com</a>
+                          <a href="mailto:needhelp@company.com">tentmasters@company.com</a>
                         </div>
                       </li>
                       <li>
@@ -79,7 +79,7 @@ export default function ContactPage() {
                         </div>
                         <div class="text">
                           <h6>Visit anytime</h6>
-                          <span>66 broklyn golden street. New York</span>
+                          <span>La Fortuna. </span>
                         </div>
                       </li>
                     </ul>
@@ -89,7 +89,7 @@ export default function ContactPage() {
             </div>
           </section>
           <section class="map-section">
-            <iframe class="map w-100"  src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=1%20Grafton%20Street,%20Dublin,%20Ireland+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+            <iframe class="map w-100" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15693.57101753173!2d-84.6500587!3d10.4696723!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa00c604c3ba983%3A0x2ef6f496b0428c94!2sArenal%20Backpackers%20Resort!5e0!3m2!1ses!2scr!4v1723046578581!5m2!1ses!2scr"></iframe>
           </section>
         </>
     )

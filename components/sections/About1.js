@@ -13,7 +13,7 @@ export default function About1() {
                         <div className="content-column col-xl-6 col-lg-6 order-lg-2 wow fadeInRight" data-wow-delay="600ms">
                             <div className="inner-column">
                                 <div className="sec-title">
-                                <span className="sub-title">Arenal Glamping Resort</span>
+                                <span className="sub-title">Arenal Volcano Glamping Resort</span>
                                 <h2>Most Safe Luxurius <br/>Glamping in La Fortuna.</h2>
                                 <div className="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do <br/>tempor incididunt ut labore et dolore magna aliqua. Quis ipsum <br/>suspendisse ultrices gravida. Risus commodo maecenas accumsan<br/> lacus vel facilisis.</div>
                                 </div>
@@ -36,7 +36,7 @@ export default function About1() {
                                 <div className="contact-info">
                                     <div className="icon-box"><i className="flaticon-customer-service"></i></div>
                                     <span>Booking Now</span>
-                                    <h4 className="title">956 220 6666</h4>
+                                    <h4 className="title">+506 8888 8888 </h4>
                                 </div>
                                 </div>
                             </div>
@@ -52,7 +52,7 @@ export default function About1() {
                                 </div>
                                 <div className="exp-box bounce-y">
                                 <figure className=" overlay-anim wow fadeInLeft"><img src="images/resource/exp-icon.png" alt=""/></figure>
-                                <h4 className="title">Luxury Room</h4>
+                                <h4 className="title">Luxury Tents</h4>
                                 <div className="text">Donec in quis the asd <br/>pellentesque velit. Donec id <br/>velit arcu posuere blane.</div>
                                 </div>
                             </div>

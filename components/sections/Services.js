@@ -40,8 +40,8 @@ export default function Services() {
             <section className="service-section">
                 <div className="auto-container">
                     <div className="sec-title text-center wow fadeInUp">
-                        <span className="sub-title">Hoexr SERVICES</span>
-                        <h2>Hotel Facilities</h2>
+                        <span className="sub-title">SERVICES</span>
+                        <h2>Glamping Facilities</h2>
                     </div>
                         <div className="row wow fadeInUp">
                         {data.map((item, i) => (

@@ -49,7 +49,7 @@ export default function Form() {
               <div className="col-lg-6 booking-content-column wow fadeInRight" data-wow-delay="200ms">
                 <div className="inner-column">
                   <div className="sec-title white">
-                    <span className="sub-title">Hoexr HOTEL</span>
+                    <span className="sub-title">Arenal Volcano Glamping Resort</span>
                     <h2>Check Availability </h2>
                   </div>
                   <p>Each of our guest rooms feature a private bath, wi-fi, cable television and include full breakfast.</p>
@@ -57,7 +57,7 @@ export default function Form() {
                   <div className="contact-info">
                     <div className="icon-box"><i className="flaticon-customer-service"></i></div>
                     <span>Booking Now</span>
-                    <h4 className="title">956 220 6666</h4>
+                    <h4 className="title">+506 8888 8888</h4>
                   </div>
                 </div>
               </div>

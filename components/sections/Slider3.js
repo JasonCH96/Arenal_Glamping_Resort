@@ -28,10 +28,10 @@ const swiperOptions = {
 
 export default function Slider3() {
   return (
-    <>
+    <section>
 
       <section className="banner-section">
-        <div class="product-details rd-page">
+        <sect class="product-details rd-page">
           <div class="testimonials bxslider">
             <div class="swiper-container testimonial-content-home5">
               <Swiper {...swiperOptions} className="banner-slider owl-carousel owl-theme default-navs">
@@ -87,8 +87,8 @@ export default function Slider3() {
               </div>
             </div>
           </div>
-        </div>
-      </section>
-    </>
+        </section>
+      </section>  
+    </> 
   )
 }

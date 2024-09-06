@@ -15,14 +15,14 @@ export default function Home2() {
     <Layout headerStyle={2} footerStyle={2}>
     <Slider2 />
     <About2 />
-    <Services2 />
-    <Pricing2 />
-    <FoodSection />
+    {/* <Services2 /> */}
+    {/* <Pricing2 /> */}
+    {/* <FoodSection /> */}
     <Form2 />
-    <Testimonial2 />
+    {/* <Testimonial2 /> */}
     <CallToAction />
-    <News2 />
-    <Clients />
+    {/* <News2 /> */}
+    {/* <Clients /> */}
     </Layout>
     </>
   )

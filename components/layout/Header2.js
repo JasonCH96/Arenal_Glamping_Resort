@@ -3,8 +3,8 @@ import Image from 'next/image'
 import React from 'react';
 import MobileMenu from './MobileMenu';
 import NavLinks from './NavLinks';
-import LogoWhite from './../../public/images/logo-v5-black.png';
-import LogoDark from './../../public/images/logo-2.png';
+import LogoWhite from './../../public/images/logo-v4-black.png';
+import LogoDark from './../../public/images/logo-v4-black.png';
 
 const Header1 = ({ handleMobileMenu, searchToggle, handleSearch, scroll, isSearch }) => {
 
@@ -64,21 +64,20 @@ const Header1 = ({ handleMobileMenu, searchToggle, handleSearch, scroll, isSearc
                                 <div className="contact-info-box">
                                     <i className="icon lnr-icon-phone-handset" />
                                     <span className="title">Call Now</span>
-                                    <Link href="tel:+92880098670">+92 (8800) - 98670</Link>
+                                    <Link href="tel:+92880098670">+506 8888 8888</Link>
                                 </div>
                             </li>
                             <li>
                                 <div className="contact-info-box">
                                     <span className="icon lnr-icon-envelope1" />
                                     <span className="title">Send Email</span>
-                                    <Link href="mailto:help@company.com">help@company.com</Link>
+                                    <Link href="mailto:help@company.com">tentmasters@company.com</Link>
                                 </div>
                             </li>
                             <li>
                                 <div className="contact-info-box">
                                     <span className="icon lnr-icon-clock" />
                                     <span className="title">Send Email</span>
-                                    Mon - Sat 8:00 - 6:30, Sunday - CLOSED
                                 </div>
                             </li>
                         </ul>

@@ -21,7 +21,7 @@ export default function Pricing2() {
                   <ul className="list-style-two">
                     <li><i className="icon fa fa-circle-check"></i>Pick & Drop Service</li>
                     <li><i className="icon fa fa-circle-check"></i>Swimming Pool</li>
-                    <li><i className="icon fa fa-circle-check"></i>City Tour Guide</li>
+                    <li><i className="icon fa fa-circle-check"></i>Tour Guide</li>
                     <li><i className="icon fa fa-circle-check"></i>Fibre Internet</li>
                   </ul>
                   <a href="page-pricing.html" className="book-now">Book Now</a>

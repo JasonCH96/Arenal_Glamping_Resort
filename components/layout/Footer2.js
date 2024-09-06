@@ -2,7 +2,7 @@ import Link from 'next/link';
 import React from 'react';
 import BackToTop from '../elements/BackToTop'
 import Image from 'next/image'
-import LogoDark from './../../public/images/logo-2.png';
+import LogoWhite from './../../public/images/logo-v4-black.png';
 const Footer1 = () => {
     return (
         <>
@@ -14,7 +14,7 @@ const Footer1 = () => {
 					<div className="footer-column col-xl-3 col-sm-6">
 						<div className="footer-widget about-widget">
 							<div className="logo">
-								<Link href="/"><Image src={LogoDark} title='Hoexr' alt="" /></Link>
+								<Link href=""><Image src={LogoWhite} title='Arenal Volcano Glamping Resort' alt="" /></Link>
 							</div>
 							<div className="text">Welcome to the best five-star deluxe glamping in La Fortuna.</div>
 							<ul className="social-icon-two">
@@ -40,15 +40,15 @@ const Footer1 = () => {
 							<div className="widget-content">
 								<ul className="user-links">
 									<li><Link href="#"><i className="fa-solid fa-crosshairs"></i>Home</Link></li>
-									<li><Link href="#"><i className="fa-solid fa-crosshairs"></i>Suites</Link></li>
-									<li><Link href="#"><i className="fa-solid fa-crosshairs"></i>Restaurant</Link></li>
-									<li><Link href="#"><i className="fa-solid fa-crosshairs"></i>News</Link></li>
-									<li><Link href="#"><i className="fa-solid fa-crosshairs"></i>About Hotel</Link></li>
+									<li><Link href="#"><i className="fa-solid fa-crosshairs"></i>Tents</Link></li>
+									{/* <li><Link href="#"><i className="fa-solid fa-crosshairs"></i>Restaurant</Link></li> */}
+									{/* <li><Link href="#"><i className="fa-solid fa-crosshairs"></i>News</Link></li> */}
+									<li><Link href="#"><i className="fa-solid fa-crosshairs"></i>About the property</Link></li>
 								</ul>
 								<ul className="user-links">
-									<li><Link href="#"><i className="fa-solid fa-crosshairs"></i>Rooms</Link></li>
-									<li><Link href="#"><i className="fa-solid fa-crosshairs"></i>Wellness</Link></li>
-									<li><Link href="#"><i className="fa-solid fa-crosshairs"></i>Spa</Link></li>
+									<li><Link href="#"><i className="fa-solid fa-crosshairs"></i>tents</Link></li>
+									{/* <li><Link href="#"><i className="fa-solid fa-crosshairs"></i>Wellness</Link></li> */}
+									{/* <li><Link href="#"><i className="fa-solid fa-crosshairs"></i>Spa</Link></li> */}
 									<li><Link href="#"><i className="fa-solid fa-crosshairs"></i>Gallery</Link></li>
 									<li><Link href="#"><i className="fa-solid fa-crosshairs"></i>Contact</Link></li>
 								</ul>
@@ -56,7 +56,7 @@ const Footer1 = () => {
 						</div>
 					</div>
 
-					<div className="footer-column col-lg-3 col-sm-6">
+					{/* <div className="footer-column col-lg-3 col-sm-6">
 						<div className="footer-widget news-widget wow fadeInLeft" data-wow-delay="300ms">
 							<h4 className="widget-title">Latest News</h4>
 							<div className="news-info">
@@ -70,7 +70,7 @@ const Footer1 = () => {
 								<span className="date">14 May 2023</span>
 							</div>
 						</div>
-					</div>
+					</div> */}
 					<div className="footer-column col-lg-3 col-sm-6">
 						<div className="footer-widget info-widget wow fadeInLeft" data-wow-delay="300ms">
 						<h4 className="widget-title">Information</h4>
@@ -78,10 +78,10 @@ const Footer1 = () => {
 
 							<article className="recent-post">
 							<div className="inner">
-								<div className="post-info"><i className="fas fa-phone"></i> 1800-121-3637</div>
-								<div className="post-info">+91-7052-101-786</div>
-								<div className="post-info"><i className="fa fa-envelope"></i> info@example.com</div>
-								<div className="post-info"><i className="fas fa-location"></i> 1247/Plot No. 39, 15th Phase, <br/>Costa Rica</div>
+								<div className="post-info"><i className="fas fa-phone"></i> +506 8888 8888</div>
+								<div className="post-info">+506 8888 8888</div>
+								<div className="post-info"><i className="fa fa-envelope"></i> tentmasters@company.com</div>
+								<div className="post-info"><i className="fas fa-location"></i> 600 meters west from La Fortuna Central Park, <br/>Costa Rica</div>
 							</div>
 							</article>
 						</div>
@@ -95,7 +95,7 @@ const Footer1 = () => {
     <div className="footer-bottom">
       <div className="auto-container">
         <div className="inner-container">
-          <div className="copyright-text">&copy; Copyright Reserved by kodesolution.com</div>
+          <div className="copyright-text">&copy; Copyright Reserved by arenalvolcanoglampingresort.com</div>
                 <BackToTop />
         </div>
       </div>

@@ -2,7 +2,7 @@ import Link from 'next/link';
 import React from 'react';
 import BackToTop from '../elements/BackToTop'
 import Image from 'next/image'
-import LogoDark from './../../public/images/logo-2.png';
+import LogoWhite from './../../public/images/logo-v4-black.png';
 const Footer1 = () => {
     return (
         <>
@@ -14,9 +14,9 @@ const Footer1 = () => {
 					<div className="footer-column col-xl-3 col-sm-6">
 						<div className="footer-widget about-widget">
 							<div className="logo">
-								<Link href="/"><Image src={LogoDark} title='Hoexr' alt="" /></Link>
+								<Link href=""><Image src={LogoWhite} title='Arenal Volcano Glamping Resort ' alt="" /></Link>
 							</div>
-							<div className="text">Welcome to the best five-star deluxe hotel in New York. Hotel elementum sesue the aucan volutpat.</div>
+							<div className="text">Welcome to the best five-star deluxe glamping in La Fortuna.</div>
 							<ul className="social-icon-two">
 								<li>
 								<Link href="#"><i className="fab fa-twitter"></i></Link>
@@ -41,8 +41,8 @@ const Footer1 = () => {
 							<ul className="user-links">
 							<li><Link href="#"><i className="fa-solid fa-crosshairs"></i>Home</Link></li>
 							<li><Link href="#"><i className="fa-solid fa-crosshairs"></i>Rooms & Suites</Link></li>
-							<li><Link href="#"><i className="fa-solid fa-crosshairs"></i>Restaurant</Link></li>
-							<li><Link href="#"><i className="fa-solid fa-crosshairs"></i>Spa & Wellness</Link></li>
+							{/* <li><Link href="#"><i className="fa-solid fa-crosshairs"></i>Restaurant</Link></li> */}
+							{/* <li><Link href="#"><i className="fa-solid fa-crosshairs"></i>Spa & Wellness</Link></li> */}
 							<li><Link href="#"><i className="fa-solid fa-crosshairs"></i>About Hotel</Link></li>
 							<li><Link href="#"><i className="fa-solid fa-crosshairs"></i>Contact</Link></li>
 							</ul>
@@ -57,10 +57,10 @@ const Footer1 = () => {
 
 							<article className="recent-post">
 							<div className="inner">
-								<div className="post-info"><i className="fas fa-phone"></i> 1800-121-3637</div>
-								<div className="post-info">+91-7052-101-786</div>
-								<div className="post-info"><i className="fa fa-envelope"></i> info@example.com</div>
-								<div className="post-info"><i className="fas fa-location"></i> 1247/Plot No. 39, 15th Phase, <br/>United States of America</div>
+								<div className="post-info"><i className="fas fa-phone"></i> +506 8888 8888</div>
+								<div className="post-info">+506 8888 8888</div>
+								<div className="post-info"><i className="fa fa-envelope"></i> tentmasters@company.com</div>
+								<div className="post-info"><i className="fas fa-location"></i> 600 meters west from La Fortuna Central Park, <br/>Costa Rica</div>
 							</div>
 							</article>
 						</div>
@@ -89,7 +89,7 @@ const Footer1 = () => {
     <div className="footer-bottom">
       <div className="auto-container">
         <div className="inner-container">
-          <div className="copyright-text">&copy; Copyright Reserved by kodesolution.com</div>
+          <div className="copyright-text">&copy; Copyright Reserved by arenalvolcanoglampingresort.com</div>
           <BackToTop />
         </div>
       </div>

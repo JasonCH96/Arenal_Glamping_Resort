@@ -12,12 +12,12 @@ export default function Pricing3() {
             <div class="row">
               <div class="content-column col-lg-4 col-md-6 col-sm-12">
                 <div class="inner-column wow fadeInLeft">
-                  <h6 class="title">$200<span> / Night</span></h6>
-                  <span>Single Room</span>
+                  <h6 class="title">$250<span> / Night</span></h6>
+                  <span>Deluxe Double Tent</span>
                   <ul class="list-style-two">
                     <li><i class="icon fa fa-circle-check"></i>Pick & Drop Service</li>
                     <li><i class="icon fa fa-circle-check"></i>Swimming Pool</li>
-                    <li><i class="icon fa fa-circle-check"></i>City Tour Guide</li>
+                    <li><i class="icon fa fa-circle-check"></i>Tour Guide</li>
                     <li><i class="icon fa fa-circle-check"></i>Fibre Internet</li>
                   </ul>
                   <a href="#" class="book-now">Book Now</a>
@@ -37,11 +37,11 @@ export default function Pricing3() {
               <div class="content-column col-lg-4 col-md-6 col-sm-12">
                 <div class="inner-column wow fadeInLeft">
                   <h6 class="title">$250<span> / Night</span></h6>
-                  <span>Double Room</span>
+                  <span>Double Master Tent</span>
                   <ul class="list-style-two">
                     <li><i class="icon fa fa-circle-check"></i>Pick & Drop Service</li>
                     <li><i class="icon fa fa-circle-check"></i>Swimming Pool</li>
-                    <li><i class="icon fa fa-circle-check"></i>City Tour Guide</li>
+                    <li><i class="icon fa fa-circle-check"></i>Tour Guide</li>
                     <li><i class="icon fa fa-circle-check"></i>Fibre Internet</li>
                   </ul>
                   <a href="#" class="book-now">Book Now</a>
